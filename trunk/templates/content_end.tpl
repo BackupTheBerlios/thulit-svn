@@ -1,0 +1,3 @@
+{* Smarty *}
+
+</div><!--#content-->

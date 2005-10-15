@@ -1,0 +1,10 @@
+#Options FollowSymLinks
+RewriteEngine on
+#RewriteRule ^([0-9a-zA-Z_\-]+)(/?)$ /cz/$1 [R]
+#RewriteRule ^(/?)$ /cz/index [R]
+RewriteRule ^(/?)$ /index.php [L]
+RewriteRule ^([0-9a-zA-Z_\-]+)(/?)$ /index.php?lang=$1 [L]
+RewriteRule ^([0-9a-zA-Z_\-]+)/([0-9a-zA-Z_\-]+)(/?)$ /index.php?lang=$1&page=$2 [L]
+RewriteRule ^([0-9a-zA-Z_\-]+)/([0-9a-zA-Z_\-]+)/([0-9a-zA-Z_\-=]+)(/?)$ /index.php?lang=$1&page=$2&$3  [L]
+RewriteRule ^([0-9a-zA-Z_\-]+)/([0-9a-zA-Z_\-]+)/([0-9a-zA-Z_\-=]+)/([0-9a-zA-Z_\-=]+)(/?)$ /index.php?lang=$1&page=$2&$3&$4  [L]
+RewriteRule ^([0-9a-zA-Z_\-]+)/([0-9a-zA-Z_\-]+)/([0-9a-zA-Z_\-=]+)/([0-9a-zA-Z_\-=]+)/([0-9a-zA-Z_\-=]+)(/?)$ /index.php?lang=$1&page=$2&$3&$4&$5  [L]

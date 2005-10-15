@@ -1,6 +1,0 @@
-Options FollowSymLinks
-RewriteEngine on
-RewriteRule ^([0-9a-zA-Z_\-]+)(/?)$ /cz/$1 [R]
-RewriteRule ^(/?)$ /cz/index [R]
-RewriteRule ^([0-9a-zA-Z_\-]+)/([0-9a-zA-Z_\-]+)(/?)$ /index.php?lang=$1&page=$2 [L]
-#RewriteRule ^objednejte_si.php$ index.php?sect=objednejte_si [L]

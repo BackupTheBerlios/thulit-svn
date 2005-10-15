@@ -1,3 +1,0 @@
-{* Smarty *}
-
-<div id="content">

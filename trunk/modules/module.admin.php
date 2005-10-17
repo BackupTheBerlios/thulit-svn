@@ -48,11 +48,7 @@ class module_site{
                 elseif (IsSet($thulit["default_index_page"])&&$thulit["default_index_page"]!=""){$thulit["page"]=$thulit["default_index_page"];}
                     else{$thulit["page"]="index";}
         }
-        /* Sets up default module template if it's not defined in node properties. */
-        if (!IsSet($this->properties["template"])||$this->properties["template"]==""){
-            $this->properties["template"]="file:../modules/templates/module.site.default.tpl";
-        }
-        /* Assign base variables into smarty */
+        /* Assign base variables into thulit */
         $smarty->assign('lang',$thulit["lang"]);
         $smarty->assign('site',$thulit['site']);
         $smarty->assign('page',$thulit["page"]);

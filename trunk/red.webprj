@@ -46,7 +46,6 @@
     <item modified_time="1128357028" url="Auth/Container.php" uploadstatus="1" />
     <item modified_time="1128357028" url="Auth/README.Auth" uploadstatus="1" />
     <item url="cache/" uploadstatus="1" />
-    <item url="cz/" uploadstatus="1" />
     <item url="Data/" uploadstatus="1" />
     <item url="Data/Image/" uploadstatus="1" />
     <item url="db/" uploadstatus="1" />
@@ -814,9 +813,6 @@
     <item modified_time="1117963426" url="FCKeditor/fckstyles.xml" uploadstatus="1" />
     <item modified_time="1117963426" url="FCKeditor/license.txt" uploadstatus="1" />
     <item url="inc/" uploadstatus="1" />
-    <item url="inc/thulit/" uploadstatus="1" />
-    <item modified_time="1120516642" url="inc/thulit/base.auth_init.php" uploadstatus="1" />
-    <item modified_time="1120516644" url="inc/thulit/base.db_init.php" uploadstatus="1" />
     <item modified_time="1122626346" url="inc/base.auth_init.php" uploadstatus="1" />
     <item modified_time="1128466346" url="inc/base.db_init.php" uploadstatus="1" />
     <item modified_time="1129332718" url="inc/base.smarty_init.php" uploadstatus="1" />
@@ -891,53 +887,42 @@
     <item modified_time="1117963446" url="templates/index.tpl" uploadstatus="1" />
     <item modified_time="1117963446" url="templates/menu.tpl" uploadstatus="1" />
     <item url="templates_c/" uploadstatus="1" />
-    <item modified_time="1128469419" url="templates_c/%%AB^ABB^ABB2C566%%db%3Alogin.tpl.php" uploadstatus="1" />
-    <item modified_time="1128421664" url="templates_c/%%A4^A4F^A4F26225%%admin_edit_form.tpl.php" uploadstatus="1" />
-    <item modified_time="1129375914" url="templates_c/%%A9^A93^A931D0E5%%db%3Aedit-box.tpl.php" uploadstatus="1" />
-    <item modified_time="1128421664" url="templates_c/%%E0^E0E^E0E6B1BC%%admin_choose_node_type.tpl.php" uploadstatus="1" />
     <item modified_time="1129379046" url="templates_c/%%E9^E9E^E9E6228A%%db%3Astyle.tpl.php" uploadstatus="1" />
-    <item modified_time="1128422597" url="templates_c/%%F7^F7F^F7F34188%%header.tpl.php" uploadstatus="1" />
     <item modified_time="1129379046" url="templates_c/%%0C^0C0^0C0551EE%%db%3Amenu.tpl.php" uploadstatus="1" />
-    <item modified_time="1128421664" url="templates_c/%%0E^0E4^0E407559%%footer.tpl.php" uploadstatus="1" />
-    <item modified_time="1128524383" url="templates_c/%%02^021^0210B6CA%%admin_children_items.tpl.php" uploadstatus="1" />
-    <item modified_time="1128421664" url="templates_c/%%09^09A^09A9848F%%admin_children.tpl.php" uploadstatus="1" />
     <item modified_time="1129379046" url="templates_c/%%58^581^581B974D%%db%3Apage.tpl.php" uploadstatus="1" />
-    <item modified_time="1129375914" url="templates_c/%%59^59F^59F258E7%%db%3Aedit.tpl.php" uploadstatus="1" />
-    <item modified_time="1129375914" url="templates_c/%%83^838^8382D9EB%%db%3A_text_edit_1.php" uploadstatus="1" />
     <item modified_time="1129379046" url="templates_c/%%87^871^871EB3D8%%db%3Atext.tpl.php" uploadstatus="1" />
     <item modified_time="1119818888" url="admin.php" uploadstatus="1" />
     <item modified_time="1128592551" url="config.php" uploadstatus="1" />
     <item modified_time="1117963418" url="fck.css" uploadstatus="1" />
-    <item modified_time="1117963434" url="get_content.php" uploadstatus="1" />
-    <item modified_time="1119880166" url="headers.html" uploadstatus="1" />
     <item modified_time="1129326191" url=".htaccess" uploadstatus="1" />
     <item modified_time="1119528240" url="include_path.php" uploadstatus="1" />
     <item modified_time="1129333455" url="index.php" uploadstatus="1" />
-    <item modified_time="1119478444" url="main.css" uploadstatus="1" />
-    <item modified_time="1117963444" url="main_ie.css" uploadstatus="1" />
-    <item modified_time="1119874758" url="meta_head.php" uploadstatus="1" />
     <item modified_time="1117963446" url="phpinfo.php" uploadstatus="1" />
-    <item modified_time="1117963446" url="xmlhttp.js" uploadstatus="1" />
     <item url="" uploadstatus="1" />
     <item modified_time="1128425350" url="sql.sql" uploadstatus="1" />
-    <item modified_time="1128466083" url="test.php" uploadstatus="1" />
     <templates>templates/</templates>
     <toolbars>toolbars/</toolbars>
     <uploadprofiles defaultProfile="@" >
       <profile remote_host="" remote_port="" remote_path="" remote_protocol="ftp" user="" name="@" />
     </uploadprofiles>
-    <item url="db/DB/common.php~" />
-    <item url="db/DB/mysql.php~" />
-    <item url="FCKeditor/fckconfig.js~" />
-    <item url="img/" />
-    <item url="img/a_1.gif" />
-    <item url="img/a_background.gif" />
-    <item url="img/b_background.gif" />
-    <item url="templates/admin_edit_form.tpl~" />
-    <item url="templates/header.tpl~" />
+    <item url="db/DB/common.php~" uploadstatus="1" />
+    <item url="db/DB/mysql.php~" uploadstatus="1" />
+    <item url="FCKeditor/fckconfig.js~" uploadstatus="1" />
+    <item url="img/" uploadstatus="1" />
+    <item url="img/a_1.gif" uploadstatus="1" />
+    <item url="img/a_background.gif" uploadstatus="1" />
+    <item url="img/b_background.gif" uploadstatus="1" />
+    <item url="templates/admin_edit_form.tpl~" uploadstatus="1" />
+    <item url="templates/header.tpl~" uploadstatus="1" />
+    <item url="modules/templates/" uploadstatus="1" />
+    <item url="modules/templates/module.site.admin.tpl" uploadstatus="1" />
+    <item url="modules/module.admin.php" uploadstatus="1" />
+    <item url="modules/templates/module.site.default.tpl" />
+    <item url="modules/templates/module.text.default.tpl" />
     <treestatus>
       <openfolder url="inc" />
       <openfolder url="modules" />
+      <openfolder url="modules/templates" />
     </treestatus>
   </project>
 </webproject>

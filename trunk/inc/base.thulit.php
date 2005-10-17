@@ -132,7 +132,13 @@ function print_tpl($obj){
     $smarty->assign('obj',$obj);
     $smarty->assign('prop',$obj->properties);
     if ($obj->parent!=null){$smarty->assign('parent_prop',$obj->parent->properties);}else{$smarty->assign('parent_prop',$obj->parent);}
-    $smarty->display("db:".$obj->properties['template']);
+    $temp=explode(":",$obj->properties['template']);
+//     var_dump ($temp);
+    if ($temp[0]=="file"){
+        $smarty->display($obj->properties['template']);
+    }else{
+        $smarty->display("db:".$obj->properties['template']);
+    }
 }
 
 

@@ -8,6 +8,7 @@ class module_page{
         $this->parent=$parent;
         if (isSet($parent)){$this->properties=$parent->properties;}
         load_properties($node,$this);
+        $this->_prepare();
         //$this->display_tpl();
         $vl = $this->properties['view_level'];
         if (!isSet($vl)){$vl=99;}
@@ -22,6 +23,12 @@ class module_page{
     }
     public function _display_tpl(){
         print_tpl($this);
+    }
+    private function _prepare(){
+        /* Sets up default module template if it's not defined in node properties. */
+        if (!IsSet($this->properties["template"])||$this->properties["template"]==""){
+            $this->properties["template"]="file:../modules/templates/module.page.default.tpl";
+        }
     }
     public function _call_part($part){
         eval("\$this->".$part."();");
